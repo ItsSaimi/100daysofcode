@@ -6,3 +6,8 @@ print("A BMI of 25.0 or more is overweight, while the healthy range is 18.5 to 2
 
 print("Your BMI is:")
 print(int(result))
+if (result >= 18.5) and (result <= 24.9):
+    print("You are healthy")
+else:
+    print("You are unhealthy")
+   
