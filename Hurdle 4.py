@@ -17,6 +17,7 @@ while at_goal() != True:
         my_sol()
     else:
         move()
+#its the solution of the hurdle 4
     
 
 
