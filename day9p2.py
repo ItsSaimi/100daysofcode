@@ -5,6 +5,8 @@ student_scores = {
   "Draco": 74,
   "Neville": 62,
 }
-
+student={}
+for student in student_scores:
+  print(student)
 print(student_grades)
 
