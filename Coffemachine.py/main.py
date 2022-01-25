@@ -30,6 +30,9 @@ resources = {
     "milk": 200,
     "coffee": 100,
 }
+
+def enough_r(o_i):
+
 is_on = True
 while is_on:
     choice = input("What would you like to have espresso/latte/cappuccino: ")
@@ -42,4 +45,4 @@ while is_on:
        print(f"money:{profit}$")
     else:
         drink=MENU[choice]
-        print(drink)
+        enough_r(drink["ingredients"])
