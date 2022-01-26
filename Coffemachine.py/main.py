@@ -32,6 +32,12 @@ resources = {
 }
 
 def enough_r(o_i):
+    for i in o_i:
+        if o_i[i] >= resources[i]:
+            print(f"Sorry there is not enough {i}. ")
+            return False
+    return True
+        
 
 is_on = True
 while is_on:
