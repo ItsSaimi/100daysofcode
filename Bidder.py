@@ -29,3 +29,7 @@ while not bidding_finished:
         find_highest(bids)
     elif  should_continue == "yes": 
         clear()
+    
+
+
+    #It is from replit,so "clear()" will not work.
