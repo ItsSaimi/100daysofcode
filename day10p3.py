@@ -3,7 +3,7 @@ def p(num):
     print(num)
     print(num)
 
-print("It is print() function's result:")
+print("It is print() functions result:")
 p(4)
 
 
