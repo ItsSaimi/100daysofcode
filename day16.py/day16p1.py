@@ -1,0 +1,10 @@
+from turtle import Screen,Turtle
+t=Turtle()
+print(t)
+t.shape("turtle")
+t.color("grey")
+# t.shapesize(3)
+t.forward(100)
+s=Screen()
+s.exitonclick()
+print(s)
