@@ -2,7 +2,7 @@ from replit import clear
 from Bid_art import logo
 print(logo)
 
-bids = {}
+bids = 
 bidding_finished = False
 
 def find_highest(bidding_record):
