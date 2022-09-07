@@ -6,3 +6,4 @@ weeks_remaining=age_remaining*52
 months_remaining=age_remaining*12
 
 print(f"You have {days_remaining} days or {weeks_remaining} weeks or {months_remaining} months remaining untill you get 90 years old.")
+#this is the program 
