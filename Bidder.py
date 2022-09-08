@@ -20,8 +20,7 @@ while not bidding_finished:
     name = input("Enter your name:")
     price = int(input("Enter the bid price in PKR: RS"))
     #price1 = (f"{price}RS.") 
-    #print(name)
-    #print(price1)
+    
     bids[name] = price
     should_continue = input("Are there any other bidders: Type 'yes' or 'no' ")
     if should_continue == "no":
