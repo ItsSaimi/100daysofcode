@@ -1,5 +1,4 @@
-# Python3 implementation of the approach
- 
+
 # Function to return the maximum profit
 # that can be made after buying and
 # selling the given stocks
